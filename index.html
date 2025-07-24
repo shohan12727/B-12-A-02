@@ -1,11 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Flower-market</title>
+  <!-- tailwind -->
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+  <!-- style sheet  -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="font.css">
+
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body>
-  
+
+<body class="max-w-[1280px] mx-auto" style="font-family: 'Inter', sans-serif; background-color: hsl(222, 100%, 98%);">
+  <nav class="lg:px-[100px] px-2.5 flex justify-between pt-[30px]">
+    <img src="./assets/logo.png" alt="logo">
+    <ul class="flex items-center gap-10">
+      <div class="hidden md:flex  items-center gap-10">
+        <li><a href="">Home</a></li>
+        <li><a href="">Shop</a></li>
+        <li><a href="">About us </a></li>
+      </div>
+      <div class="flex items-center">
+        <i class="fa-solid fa-cart-shopping"></i>
+        <p>Cart ($56)</p>
+      </div>
+    </ul>
+  </nav>
+
+  <!-- header section  -->
+
+  <header class="lg:px-[100px] px-2.5 mt-[80px] mb-[80px] flex justify-between items-end lg:flex-row flex-col-reverse gap-2">
+    <div class="header_text lg:w-1/2">
+      <h1 class="font-bold lg:text-6xl text-2xl" style="font-family: 'Noto Serif', serif;">ALWAYS <span class="text-[#E95A08]">FRESH
+        </span></h1>
+      <h1 class="font-bold lg:text-6xl text-2xl text-[#E95A08] mt-[12px] mb-[12px]" style="font-family: 'Noto Serif', serif;">
+        FLOWERS</h1>
+      <p class="text-[#00000054]">Indulge your senses with the beauty and fragrance of our fresh flower shop. From
+        classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion.
+      </p>
+    </div>
+    <div class="header_image lg:w-1/2">
+      <img class="w-full " src="./assets/hero-flower.png" alt="hero-flower">
+    </div>
+  </header>
+
 </body>
+
 </html>
