@@ -77,3 +77,22 @@ h3 {
     height: 180px;
   }
 }
+
+.join_section{
+  background-image:  url(./assets/news-letter-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 200px 300px 200px 300px;
+}
+
+@media screen and (max-width:576px) {
+  .join_section{
+    padding: 100px 36px 64px 36px;
+  }
+  .join_section h1{
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+}
