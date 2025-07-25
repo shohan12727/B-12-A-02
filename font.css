@@ -7,6 +7,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 /* font-family: "Inter", sans-serif; */
 
+
+/* badge animation  */
+
+.badge {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 1.2rem;
+  animation: spin 4.5s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+
 .container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -78,8 +102,8 @@ h3 {
   }
 }
 
-.join_section{
-  background-image:  url(./assets/news-letter-bg.png);
+.join_section {
+  background-image: url(./assets/news-letter-bg.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -87,18 +111,21 @@ h3 {
 }
 
 @media screen and (max-width:576px) {
-  .join_section{
+  .join_section {
     padding: 100px 36px 64px 36px;
   }
-  .join_section h1{
+
+  .join_section h1 {
     font-weight: bold;
     font-size: 20px;
   }
-  .join_section button{
+
+  .join_section button {
     padding: 8px 18px;
   }
-  .join_section input{
+
+  .join_section input {
     padding: 8px 18px;
   }
-  
+
 }
