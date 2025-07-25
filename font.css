@@ -94,5 +94,11 @@ h3 {
     font-weight: bold;
     font-size: 20px;
   }
+  .join_section button{
+    padding: 8px 18px;
+  }
+  .join_section input{
+    padding: 8px 18px;
+  }
   
 }
